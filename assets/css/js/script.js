@@ -1,14 +1,9 @@
 let Months = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
-let myHtml = '<ol>';
-Total Mo: 86
-Total: $38382578
-Average Change: -2315.12
-Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
-Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)v
+let=result;
+Total months= 86;
+if (months> 86) { result ="January";}
+else if ( months >=19) {result='December';}
 
-for (let i = 0; i < months.length; i++) {
-  myHtml += `<li>${fruits[i]}</li>`;
-}
-myHtml += '</ol>';
-console.log(myHtml);
+result= '</ol>';
+console.log(months);
