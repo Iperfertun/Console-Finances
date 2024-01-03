@@ -1,16 +1,26 @@
+/**body**/
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
 }
-
+/**heading**/
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
-
+/**Logo**/
 .logo {
     height: 40px;
     padding-right: 5px;
 }
+
+
+/* --------- Media queries */
+
+@media (max-width: 414px) {
+    .heading {
+        width: 100%;
+    }
+
